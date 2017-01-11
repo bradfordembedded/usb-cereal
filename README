@@ -1,0 +1,30 @@
+USB Cereal
+==========
+
+USB Cereal is designed by Andrew Bradford <andrew@bradfordembedded.com>.
+
+USB Cereal is a USB to UART bridge circuit supporting target devices which
+operate at 1.8 V, 3.3 V, and 5 V logic levels and using the common "FTDI cable"
+6 pin cable pinout interface.
+
+USB Cereal is Open Source Hardware, please see the LICENSE file for more
+information.
+
+The USB Cereal project design requirements are documented in the REQUIREMENTS
+file.
+
+The USB Cereal project design specification is documented in the SPECIFICATION
+file.
+
+USB Cereal is designed in the KiCad EDA electronics CAD software running on the
+Debian GNU/Linux operating system.  You can obtain a copy of KiCad EDA from
+http://kicad-pcb.org/ and a copy of Debian from http://www.debian.org/
+
+In order to obtain the schematic parts library and layout footprint files,
+please use the myrepos tool.  You can obtain a copy of myrepos from
+https://myrepos.branchable.com/.  In order to use myrepos to obtain the library
+and footprint files, follow these exact steps in your terminal emulator from the
+directory where this README resides on your system:
+
+1. $ echo "${PWD}/.mrconfig" >> ~/.mrtrust
+2. $ mr checkout
