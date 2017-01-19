@@ -1,0 +1,53 @@
+USB Cereal Requirements
+=======================
+
+Introduction
+------------
+Requirements listed as SHALL must be adhered to and cannot be violated without
+first updating this document.
+
+Requirements listed as SHOULD are highly recommended to be followed but may be
+violated without first updating this document so long as the specification
+document calls out such violations.
+
+
+Definitions
+-----------
+host computer -	The computer which connects via USB to the USB Cereal.
+target device -	The device which connects its logic level serial port to the USB
+		Cereal.
+UART signals -	Tx, Rx, RTS, and CTS lines at logic levels (ie: not +/- 12 V).
+
+
+SHALL Requirements
+------------------
+1. The interface from the PCB to the target device SHALL use a 6 pin header
+   which matches the pinout and functionality of each pin of the "Adafruit FTDI
+   Serial TTL-232 USB Cable" (https://www.adafruit.com/products/70) except as
+   noted in other requirements.
+2. The VCC power pin output from the USB Cereal to the target device SHALL match
+   the configured logic level (ie: 3.3 V logic uses 3.3 V VCC power pin).
+3. The VCC power pin output and UART signals' voltage level SHALL be adjustable
+   by the user to settings of 1.8 V, 3.3 V, and 5 V.  Only one setting SHALL be
+   active at any one time.
+4. The host computer SHALL connect to the USB Cereal via USB 2.0 cable.
+5. There SHALL be at least 3 indicator LEDs which indicate:
+	1. Power applied to the USB Cereal
+	2. Tx UART line activity
+	3. Rx UART line activity
+6. The design SHALL be manufacturable by Macrofab.com using their "Standard
+   Process" capabilities for both PCB and assembly
+   (https://macrofab.com/help/pcb-specifications-assembly-capabilities/).
+7. The PCB design SHALL be manufacturable by OSH Park
+   (http://docs.oshpark.com/services/).
+8. Standard baud rates covering at least the range from 2400 to 921600 SHALL be
+   capable of being used.
+9. Freely available drivers SHALL exist and be downloadable without payment.
+
+
+SHOULD Requirements
+-------------------
+1. Total cost to manufacture one unit (not including shipping or taxes) at
+   Macrofab.com SHOULD be less than $25 USD.
+2. Drivers SHOULD be open source for all host computer architectures and
+   operating systems.
