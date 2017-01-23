@@ -21,10 +21,10 @@ Debian GNU/Linux operating system.  You can obtain a copy of KiCad EDA from
 http://kicad-pcb.org/ and a copy of Debian from http://www.debian.org/
 
 In order to obtain the schematic parts library and layout footprint files,
-please use the myrepos tool.  You can obtain a copy of myrepos from
-https://myrepos.branchable.com/.  In order to use myrepos to obtain the library
-and footprint files, follow these exact steps in your terminal emulator from the
-directory where this README resides on your system:
+please use the git submodule tools built into the git version control system.
+In order to use git's submodule tools to obtain the library and footprint
+files, follow these exact steps in your terminal emulator from the directory
+where this README resides on your system:
 
-1. $ echo "${PWD}/.mrconfig" >> ~/.mrtrust
-2. $ mr checkout
+1. git submodule init
+2. git submodule update
