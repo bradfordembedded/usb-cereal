@@ -1,3 +1,24 @@
 [submodule "kicad-library"]
 	path = kicad-library
 	url = https://github.com/KiCad/kicad-library.git
+[submodule "footprints/Resistors_SMD.pretty"]
+	path = footprints/Resistors_SMD.pretty
+	url = https://github.com/KiCad/Resistors_SMD.pretty.git
+[submodule "footprints/Capacitors_SMD.pretty"]
+	path = footprints/Capacitors_SMD.pretty
+	url = https://github.com/KiCad/Capacitors_SMD.pretty.git
+[submodule "footprints/Fiducials.pretty"]
+	path = footprints/Fiducials.pretty
+	url = https://github.com/KiCad/Fiducials.pretty.git
+[submodule "footprints/LEDs.pretty"]
+	path = footprints/LEDs.pretty
+	url = https://github.com/KiCad/LEDs.pretty.git
+[submodule "footprints/Mounting_Holes.pretty"]
+	path = footprints/Mounting_Holes.pretty
+	url = https://github.com/KiCad/Mounting_Holes.pretty.git
+[submodule "footprints/Pin_Headers.pretty"]
+	path = footprints/Pin_Headers.pretty
+	url = https://github.com/KiCad/Pin_Headers.pretty.git
+[submodule "footprints/Housings_DFN_QFN.pretty"]
+	path = footprints/Housings_DFN_QFN.pretty
+	url = https://github.com/KiCad/Housings_DFN_QFN.pretty.git
