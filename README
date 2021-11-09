@@ -18,7 +18,7 @@ file.
 
 USB Cereal is designed in the KiCad EDA electronics CAD software running on the
 Debian GNU/Linux operating system.  You can obtain a copy of KiCad EDA from
-http://kicad-pcb.org/ and a copy of Debian from http://www.debian.org/
+http://kicad.org/ and a copy of Debian from http://www.debian.org/
 
 In order to obtain the schematic parts library and layout footprint files,
 please use the git submodule tools built into the git version control system.
